@@ -15,7 +15,10 @@
             <!-- Left navbar links -->
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a href="index3.html" class="nav-link">Home</a>
+                    <a href="<?= base_url('kategori') ?>" class="nav-link <?php if ($this->uri->segment(1) == 'kategori') {
+                          echo 'active';
+                      } ?>
+                    )">Home</a>
                 </li>
                 <li class="nav-item">
                     <a href="#" class="nav-link">Contact</a>
