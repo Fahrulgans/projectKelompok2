@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<div class="container">
+
+    <form method="post" action="<?php echo base_url(); ?>payment/process">
+
+        <div class="row">
+
+            <div class="col">
+
+                <h3 class="title">Form Pengiriman</h3>
+
+                <div class="inputBox">
+                    <span>Nama :</span><br>
+                    <input type="text" name="name" id="name"  placeholder="Masukan Nama" required>
+                </div>
+                <div class="inputBox">
+                    <span>Alamat :</span><br>
+                    <textarea name="alamat"  cols="30" rows="5" placeholder="Masukan Alamat" required></textarea>
+                </div>
+                    <div class="inputBox">
+                        <span>Kode Pos :</span><br>
+                        <input type="text" name="kode_pos" placeholder="Kode Pos">
+                    </div>
+                </div><br>
+                <div class="inputBox">
+                    <span>Pilih Bank :</span>
+                    <select name="pilih_bank" required>
+                        <option value="">Pilih Bank</option>
+                        <option value="BCA">BCA</option>
+                        <option value="BRI">BRI</option>
+                        <option value="MANDIRI">MANDIRI</option>
+                    </select>
+                </div>
+
+            </div>
+
+            <div class="col">
+
+                <h3 class="title">Orderan Anda</h3>
+
+                <div class="inputBox">
+                    <span>Total Produk :</span><br>
+                    <input type="text" name="total_produk" placeholder="Total Produk" required>
+                </div>
+                <div class="inputBox">
+                    <span>Total Harga :</span><br>
+                    <input type="text" name="total_harga" placeholder="Total Harga" required>
+                </div>
+
+                </div> 
+
+            </div>
+    
+        </div>
+
+        <p><button type="submit">Pesan</button></p>
+
+    </form>
+
+</div>    
+    
+</body>
+</html>
