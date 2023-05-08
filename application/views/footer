@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src='assets/fontawesome/js/all.js'></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <!-- Posisi Header -->
+        </div>
+        <div class="content">
+            <!-- Posisi konten -->
+        </div>
+        <div class="footer">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>FIND US</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>CATEGORIES</h4>
+                    <ul>
+                        <li><a href="#">Categories 1</a></li>
+                        <li><a href="#">Categories 2</a></li>
+                        <li><a href="#">Categories 3</a></li>
+                        <li><a href="#">Categories 4</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>EXPLORE</h4>
+                    <ul>
+                        <li><a href="#">Tentang Kami</a></li>
+                        <li><a href="#">Kebijakan Privasi</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Kontak Media</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>STARCOMP</h4>
+                    <ul>
+                        <li><a href="#">Tagihan & Top up</a></li>
+                        <li><a href="#">Jual Beli</a></li>
+                        <li><a href="#">COD</a></li>
+                        <li><a href="#">Pusat Edukasi</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
